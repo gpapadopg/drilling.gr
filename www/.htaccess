@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.drilling.gr$
+RewriteRule ^(.*)$ http://www.drilling.gr/$1 [L,R=301]
